@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "purpose": "public_distribution_configuration",
+  "channel": "stable",
+  "platform": "windows-x86_64-nsis",
+  "stable_feed": "https://raw.githubusercontent.com/tamasmaul1/LectureFlow-releases/main/stable.json",
+  "feed_published": false,
+  "public_key_file": "trust/lectureflow-stable.pub",
+  "public_key_fingerprint_sha256": "de7f1470186c829f73eb033baeab3744a1983db3bb32e65d0343de15a298b070",
+  "component_reuse": true,
+  "publication": "manual_exact_version_approval_required"
+}
