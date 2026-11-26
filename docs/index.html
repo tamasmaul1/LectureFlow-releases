@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn Panopto recordings into transcripts, editable notes, and study aids. Export your materials as PDFs when you’re ready.">
+  <title>LectureFlow — From lecture video to study-ready notes</title>
+  <link rel="alternate" hreflang="en" href="./">
+  <link rel="alternate" hreflang="hu" href="./hu/">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+  <script type="module" src="./download.js"></script>
+</head>
+<body id="lf-study-landing">
+  <header class="lf-site-header lf-wrap">
+    <span class="lf-brand"><span class="lf-mark" aria-hidden="true"><i></i><i></i><i></i></span>LectureFlow</span>
+    <nav aria-label="Page navigation">
+      <a class="lf-features-link" href="#lf-study-workflow">Features</a>
+      <div class="lf-languages" role="group" aria-label="Language">
+        <a href="./" hreflang="en" lang="en" aria-label="English" aria-current="page"><span class="lf-flag lf-flag-en" aria-hidden="true"></span></a>
+        <a href="./hu/" hreflang="hu" lang="hu" aria-label="Magyar" aria-current="false"><span class="lf-flag lf-flag-hu" aria-hidden="true"></span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="lf-study-download" class="lf-hero lf-wrap" aria-labelledby="lf-study-title">
+      <div class="lf-hero-copy">
+        <h1 id="lf-study-title">From lecture video<br class="lf-desktop-break"> <span>to study-ready notes.</span></h1>
+        <p>Turn Panopto recordings into transcripts, editable notes, and study aids. Export your materials as PDFs when you’re ready.</p>
+        <a class="lf-download" data-download inert href="https://github.com/tamasmaul1/LectureFlow-releases/releases">Download for Windows</a>
+        <p class="lf-compatibility">Windows 11 (64-bit, x64)<span data-release-info></span></p>
+        <p class="lf-install-note">Internet required during setup (about 3 GB of required downloads on a fresh install).</p>
+        <p class="lf-download-status" data-download-status data-unavailable="The direct download is temporarily unavailable. Find the installer in GitHub Releases." role="status" hidden></p>
+        <noscript><p class="lf-download-status">Find the Windows installer using the release link below.</p></noscript>
+        <a class="lf-release" href="https://github.com/tamasmaul1/LectureFlow-releases/releases">Release notes and all downloads</a>
+      </div>
+
+      <ol class="lf-stages" aria-label="Lecture preparation and study workflow">
+        <li><div class="lf-stage-art lf-stage-video" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><span>Lecture video</span></li>
+        <li><div class="lf-stage-art lf-stage-lines" aria-hidden="true"><span>00:18</span><i></i><span>00:42</span><i></i></div><span>Transcript</span></li>
+        <li><div class="lf-stage-art lf-stage-notes" aria-hidden="true"><strong>Retrieval practice</strong><i></i><i></i></div><span>Notes &amp; study aids</span></li>
+        <li><div class="lf-stage-art lf-stage-export" aria-hidden="true"><span>PDF</span></div><span>PDF export</span></li>
+      </ol>
+    </section>
+
+    <section id="lf-study-workflow" class="lf-features lf-wrap" aria-label="Features">
+      <article class="lf-feature">
+        <div class="lf-feature-copy">
+          <h2>Prepare a lecture</h2>
+          <p>Bring in a supported Panopto recording. Get the video, slides, and a transcript made on your PC.</p>
+        </div>
+        <figure class="lf-visual lf-visual-prep" aria-label="Sample lecture video and timestamped transcript">
+          <div class="lf-video-sample">
+            <div class="lf-video-slide" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+            <div><span class="lf-visual-label">Lecture video &amp; slides</span><strong>How memory works</strong></div>
+          </div>
+          <div class="lf-transcript-sample"><span class="lf-visual-label">Transcript</span><p><time datetime="PT12M48S">12:48</time> “Try recalling the main idea from memory.”</p></div>
+        </figure>
+      </article>
+
+      <article class="lf-feature">
+        <div class="lf-feature-copy">
+          <h2>Make notes by topic</h2>
+          <p>Generate editable notes from the transcript and slides. Study them alongside the video.</p>
+        </div>
+        <figure class="lf-visual lf-visual-notes" aria-label="The transcript and slides are used to generate editable topic notes">
+          <div class="lf-note-inputs">
+            <div class="lf-note-input"><span class="lf-visual-label">Transcript</span><strong class="lf-source-highlight">“Recall the main idea”</strong></div>
+            <div class="lf-note-input"><span class="lf-visual-label">Lecture slide</span><strong class="lf-source-highlight">Retrieval practice</strong></div>
+          </div>
+          <div class="lf-flow-line" aria-hidden="true"><span></span></div>
+          <div class="lf-note-sample">
+            <span class="lf-visual-label">AI-generated notes</span>
+            <strong>Retrieval practice</strong>
+            <ul><li class="lf-note-line">Recall the idea from memory.</li><li class="lf-note-line">Revisit the part you missed.</li></ul>
+          </div>
+        </figure>
+      </article>
+
+      <article class="lf-feature">
+        <div class="lf-feature-copy">
+          <h2>Terms and highlights</h2>
+          <p>Review the glossary, important dates, and highlighted points from your lecture.</p>
+        </div>
+        <figure class="lf-visual lf-visual-aids" aria-label="A term from the notes gets a definition and a key sentence is saved as a highlight">
+          <div class="lf-aid-source">
+            <span class="lf-visual-label">From your notes</span>
+            <p>A familiar smell can be a <mark class="lf-aid-term">retrieval cue</mark>. <mark class="lf-aid-point">Recall strengthens memory.</mark></p>
+          </div>
+          <div class="lf-aid-sample lf-aid-entry"><span class="lf-visual-label">Glossary</span><strong>Retrieval cue</strong><p>A clue that helps bring a memory back.</p></div>
+          <div class="lf-aid-sample lf-aid-entry lf-aid-highlight"><span class="lf-visual-label">Highlight</span><strong>Recall strengthens memory.</strong></div>
+        </figure>
+      </article>
+
+      <article class="lf-feature">
+        <div class="lf-feature-copy">
+          <h2>Test what you remember</h2>
+          <p>Generate recap questions or take a quiz based on the lecture.</p>
+        </div>
+        <figure class="lf-visual lf-visual-test" aria-label="An open-ended recap question and a correctly answered quiz question">
+          <div class="lf-aid-sample lf-recap-sample"><span class="lf-visual-label">Recap question</span><strong>Why does retrieval practice help?</strong></div>
+          <div class="lf-aid-sample lf-quiz-sample">
+            <span class="lf-visual-label">Quiz</span><strong>Which is an example of retrieval practice?</strong>
+            <div class="lf-quiz-choice lf-quiz-other">Reread the slides</div>
+            <div class="lf-quiz-choice"><span>Explain it from memory</span><span class="lf-quiz-result">Correct</span></div>
+          </div>
+        </figure>
+      </article>
+
+      <article class="lf-feature">
+        <div class="lf-feature-copy">
+          <h2>Export to PDF</h2>
+          <p>Export your study notes and references together, or keep the notes, glossary, dates, highlights, and recap questions in separate PDFs.</p>
+        </div>
+        <figure class="lf-visual lf-visual-export" aria-label="Study notes and reference sections collect into a PDF document">
+          <ul class="lf-export-parts" aria-label="Contents"><li>Study notes</li><li>Glossary</li><li>Dates</li><li>Highlights</li><li>Recap questions</li></ul>
+          <div class="lf-flow-line" aria-hidden="true"><span></span></div>
+          <div class="lf-export-file"><span class="lf-paper" aria-hidden="true"><b>PDF</b></span></div>
+        </figure>
+      </article>
+    </section>
+  </main>
+
+  <footer class="lf-footer lf-wrap"><span>LectureFlow</span><a href="#lf-study-download">Back to download</a></footer>
+</body>
+</html>
